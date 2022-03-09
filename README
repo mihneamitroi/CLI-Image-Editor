@@ -1,0 +1,42 @@
+311CAa Mitroi Mihnea-Cristian
+	
+	f_exit
+	Functia dealoca memoria aferenta unei matrici.
+
+	load
+	Functia citeste formatul, latimea, lungimea si valoarea maxima a
+intensitatii unei culori, si, in functie de acestea aloca si citeste
+elementele imaginii in functia main. Realizeaza la final si o selectie
+completa.
+
+	f_select
+	Functia verifica daca primeste patru parametrii si daca acestia sunt
+numere. Apoi verifica daca ei se afla intre limitele pozei si seteaza limitele
+in main.
+
+	select_all
+	Functia seteaza parametrii de selectie la lungimea si latimea pozei.
+
+	rotate_90
+	Functia creeaza o poza rasturnata si intoarce in main fie toata poza, fie
+selectia precizata.
+
+	rotate
+	Functia are rolul de a primi si analiza parametrii intr-un mod optimizat.
+Ea verifica daca selectia cuprinde toata poza, daca zona selectata e un patrat
+si aplica functia de rotire la 90 de grade de atatea ori cat este nevoie.
+
+	crop
+	Functia intoarce in main o imagine ce cuprinde o portiune decupata din
+poza initiala.
+
+	grayscale si sepia
+	Aceste functii aplica filtrul respectiv peste elementele pozei.
+
+	save
+	Functia are rolul de a printa in fisierul precizat in parametrii imaginea
+salvata in main, in format text sau binar. 
+	
+	main
+	Aici se verifica ce comanda primeste programul, se apeleaza functiile de
+care este nevoie si se paraseste programul dupa apelarea functiei de iesire.
